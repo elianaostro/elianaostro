@@ -1,0 +1,149 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=2cm]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\definecolor{accent}{HTML}{2E3A59}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=accent,
+    urlcolor=accent,
+}
+
+\pagestyle{empty}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
+\setlist[itemize]{leftmargin=1.5em, itemsep=2pt, parsep=0pt, topsep=4pt}
+
+\begin{document}
+
+% --- Header ---
+{\LARGE\bfseries Eliana Ostrovsky}\par\smallskip
+{\large AI Engineering Student}\par\smallskip
+Machine Learning \textbullet{} Computer Vision \textbullet{} Reinforcement Learning \textbullet{} LLM Systems\par
+\smallskip
+Buenos Aires, Argentina\par
+\href{mailto:elianaostro@gmail.com}{elianaostro@gmail.com} \,|\, +54 9 11 6666-2752\par
+\href{https://github.com/elianaostro}{github.com/elianaostro} \,|\, \href{https://linkedin.com/in/eliana-ostro}{linkedin.com/in/eliana-ostro}
+
+\bigskip
+
+% --- Professional Summary ---
+\section*{Professional Summary}
+
+AI Engineering student with hands-on experience developing and deploying machine learning systems, LLM-based workflows, and autonomous agents. Experienced in building production-ready AI tools, integrating cloud infrastructure, and translating business requirements into technical implementations. Ranked in the Top 9\% of the AI Engineering program at Universidad de San Andrés.
+
+% --- Professional Experience ---
+\section*{Professional Experience}
+
+\textbf{AI Engineer \,|\, Bouldertech.ia} \hfill Oct 2025 -- Present
+\begin{itemize}
+    \item Design and implement custom AI solutions using modern ML and LLM technologies.
+    \item Deploy and benchmark open-source LLMs (Qwen family) and vision models using Ollama on dedicated servers.
+    \item Build RAG pipelines and autonomous web navigation agents using OpenCrawl for automated data extraction.
+    \item Containerize AI systems using Docker to ensure reproducible environments.
+\end{itemize}
+
+\textbf{Data Analyst \& AI Developer \,|\, Alephee} \hfill May 2025 -- Present
+\begin{itemize}
+    \item Lead the development of internal AI tools and automation workflows.
+    \item Build LLM-powered orchestration agents in n8n integrated with Microsoft Teams, SharePoint, and Azure.
+    \item Implement workflows generating structured JSON outputs with integrated validation and security layers.
+    \item Query and manage large datasets using Microsoft SQL Server.
+    \item Prototype cloud solutions using AWS (Bedrock, SageMaker, S3, EC2).
+\end{itemize}
+
+\textbf{ML Intern \,|\, DHC} \hfill 2024
+\begin{itemize}
+    \item Built predictive models using Machine Learning and Feature Engineering to optimize operations in hospitals and medical centers.
+\end{itemize}
+
+\textbf{Teaching Assistant \,|\, Universidad de San Andrés} \hfill 2024 -- 2025
+\begin{itemize}
+    \item Teaching Assistant for Physics I and Calculus III (Análisis Matemático III).
+    \item Prepare and deliver classes, grade exams and lab reports.
+\end{itemize}
+
+% --- Engineering Projects ---
+\section*{Engineering Projects}
+
+\textbf{Lane Detection Adaptation for Argentinian Roads}
+\begin{itemize}
+    \item Adapted the CLRerNet state-of-the-art lane detection architecture to Argentinian urban environments using pseudo-labeling.
+    \item Designed a Student architecture integrating a ConvLSTM module to improve temporal stability in video sequences.
+    \item Optimized a lightweight architecture capable of real-time lane detection in poorly marked urban roads.
+\end{itemize}
+
+\textbf{Reinforcement Learning Flight Control}
+\begin{itemize}
+    \item Developed a control system for a scale aircraft using ROS2 and Micro-ROS on ESP32 hardware.
+    \item Trained RL policies in Gazebo simulations to optimize autonomous gliding behavior.
+\end{itemize}
+
+\textbf{Car Price Prediction}
+\begin{itemize}
+    \item Performed extensive data engineering including cleaning, feature extraction, and transformation of raw automotive datasets.
+    \item Trained and fine-tuned an XGBoost model with systematic hyperparameter optimization to maximize prediction accuracy.
+\end{itemize}
+
+\textbf{Autonomous Navigation (PPO)}
+\begin{itemize}
+    \item Implemented a Proximal Policy Optimization model for self-driving agents in a Unity simulation environment.
+\end{itemize}
+
+% --- Research ---
+\section*{Research}
+
+\textbf{Anti-inflammatory Effect of Nanoparticles on Blood Vessel Endothelium}
+\begin{itemize}
+    \item Research internship at the Experimental Thrombosis Laboratory, Institute of Experimental Medicine (CONICET -- Academia Nacional de Medicina, Buenos Aires).
+    \item Investigators: Charó Nancy, Schattner Mirta.
+\end{itemize}
+
+% --- Education ---
+\section*{Education}
+
+\textbf{B.S.\ in AI Engineering \,|\, Universidad de San Andrés}
+\begin{itemize}
+    \item Expected Graduation: 2027.
+    \item Top 9\% of the AI Engineering program.
+    \item Top 10\% university-wide.
+    \item GPA: 8.74 / 10.0.
+\end{itemize}
+
+\textbf{High School Diploma in Natural Sciences (Chemistry \& Biotech) \,|\, ORT Argentina}
+\begin{itemize}
+    \item Graduated with Honors.
+\end{itemize}
+
+% --- Technical Skills ---
+\section*{Technical Skills}
+
+\begin{itemize}
+    \item \textbf{Programming:} Python, SQL, C++, Java, C, JavaScript, Haskell.
+    \item \textbf{Machine Learning:} PyTorch, Computer Vision, Reinforcement Learning (PPO), LLM Systems, RAG.
+    \item \textbf{Infrastructure:} Docker, Git, n8n, ROS2, Gazebo, Unity, Ollama.
+    \item \textbf{Cloud:} AWS (Bedrock, SageMaker, S3, EC2).
+    \item \textbf{Languages:} Spanish (Native), English (C2), Hebrew (Basic).
+\end{itemize}
+
+% --- Additional Experience ---
+\section*{Additional Experience}
+
+\begin{itemize}
+    \item \textbf{Cadena} -- Active participant in this international NGO.
+    \item \textbf{Israel Challenge, MASA} -- 4.5-month cultural immersion program in Israel.
+    \item \textbf{BBYO Exchange} -- 2-week international relations program in Denver, Colorado, USA.
+    \item \textbf{ORT Study Trip} -- 2-week English language and culture program in London, UK.
+\end{itemize}
+
+\end{document}
