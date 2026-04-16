@@ -68,4 +68,11 @@ Architected internal agents using n8n for cross-platform Microsoft 365 integrati
 
 ---
 
+### GitHub Stats
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=elianaostro&layout=compact&theme=default&hide_border=true)](https://github.com/elianaostro)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=elianaostro&show_icons=true&hide_border=true&hide_title=true&hide_rank=true&include_all_commits=true)](https://github.com/elianaostro)
+
+---
+
 [![Email](https://img.shields.io/badge/eliana@bouldertech.fi-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:eliana@bouldertech.fi)
