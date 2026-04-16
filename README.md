@@ -68,4 +68,4 @@ Architected internal agents using n8n for cross-platform Microsoft 365 integrati
 
 ---
 
-[![Email](https://img.shields.io/badge/eliana@bouldertech.fi-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:eliana@bouldertech.fi)
+[![Email](https://img.shields.io/badge/eliana@bouldertech.fi-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:elianaostro@gmail.com)
