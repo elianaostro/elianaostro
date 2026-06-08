@@ -23,9 +23,9 @@
 \pagestyle{empty}
 
 \titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\titlerule]
-\titlespacing*{\section}{0pt}{12pt}{6pt}
+\titlespacing*{\section}{0pt}{8pt}{4pt}
 
-\setlist[itemize]{leftmargin=1.5em, itemsep=2pt, parsep=0pt, topsep=4pt}
+\setlist[itemize]{leftmargin=1.5em, itemsep=1pt, parsep=0pt, topsep=3pt}
 
 \begin{document}
 
@@ -38,7 +38,7 @@ Buenos Aires, Argentina\par
 \href{mailto:elianaostro@gmail.com}{elianaostro@gmail.com} \,|\, +54 9 11 6666-2752\par
 \href{https://github.com/elianaostro}{github.com/elianaostro} \,|\, \href{https://linkedin.com/in/eliana-ostro}{linkedin.com/in/eliana-ostro}
 
-\bigskip
+\medskip
 
 % --- Professional Summary ---
 \section*{Professional Summary}
@@ -72,8 +72,7 @@ AI Engineering student with hands-on experience developing and deploying machine
 
 \textbf{Teaching Assistant \,|\, Universidad de San Andrés} \hfill 2024 -- 2025
 \begin{itemize}
-    \item Teaching Assistant for Physics I and Calculus III (Análisis Matemático III).
-    \item Prepare and deliver classes, grade exams and lab reports.
+    \item Physics I and Calculus III (Análisis Matemático III). Prepared and delivered classes, graded exams and lab reports.
 \end{itemize}
 
 % --- Engineering Projects ---
@@ -87,12 +86,17 @@ AI Engineering student with hands-on experience developing and deploying machine
 \end{itemize}
 
 \needspace{1\baselineskip}
-\textbf{Lane Detection Adaptation for Argentinian Roads \,|\, UdeSA Autonomous Vehicle Project}
+\textbf{Research Assistant Program Participant -- UdeSA Autonomous Vehicle Project \,|\, UdeSA}\\
+Argentina's first research autonomous street vehicle (\href{https://udesa.edu.ar/auto-autonomo}{udesa.edu.ar/auto-autonomo}). Worked with the PAMPA dataset, the first autonomous driving dataset in the region (\href{https://ri.conicet.gov.ar/handle/11336/242774}{CONICET}).
+\smallskip
+
+\needspace{1\baselineskip}
+\textbf{Lane Detection via Teacher--Student Distillation under Domain Shift}
 \begin{itemize}
-    \item Collaborator on Argentina's first research autonomous street vehicle at Universidad de San Andrés (\href{https://udesa.edu.ar/auto-autonomo}{udesa.edu.ar/auto-autonomo}), working with the first autonomous driving research dataset in the region (\href{https://ri.conicet.gov.ar/handle/11336/242774}{CONICET dataset}).
-    \item Adapted the CLRerNet state-of-the-art lane detection architecture to Argentinian urban environments using pseudo-labeling.
-    \item Designed a Student architecture integrating a ConvLSTM module to improve temporal stability in video sequences.
-    \item Optimized a lightweight architecture capable of real-time lane detection in poorly marked urban roads.
+    \item Submitted to the Jornadas Argentinas de Robótica (JAR 2026).
+    \item Designed a teacher--student domain adaptation scheme for lane detection on the PAMPA urban dataset using pseudo-labeling, without retraining the teacher's weights.
+    \item Implemented two student variants based on CLRerNet: image-only and a temporal extension with ConvLSTM for inter-frame coherence.
+    \item Quantitatively characterized the specialization vs.\ forgetting trade-off: urban F1 of 34.9\% vs.\ highway accuracy drop from 96.4\% to 18.2\%.
 \end{itemize}
 
 % \textbf{Reinforcement Learning Flight Control}

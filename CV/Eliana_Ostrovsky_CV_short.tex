@@ -1,0 +1,119 @@
+\documentclass[a4paper,10.5pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.6cm]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\setlength{\parindent}{0pt}
+
+\definecolor{accent}{HTML}{2E3A59}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=accent,
+    urlcolor=accent,
+}
+
+\pagestyle{empty}
+
+\titleformat{\section}{\normalsize\bfseries\color{accent}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{9pt}{5pt}
+
+\setlist[itemize]{leftmargin=1.5em, itemsep=2pt, parsep=0pt, topsep=3pt}
+
+\begin{document}
+
+% --- Header ---
+{\Large\bfseries Eliana Ostrovsky}\par\smallskip
+{\normalsize AI Engineering Student \,|\, Machine Learning \textbullet{} Computer Vision \textbullet{} Reinforcement Learning \textbullet{} LLM Systems}\par
+\smallskip
+Buenos Aires, Argentina \,|\,
+\href{mailto:elianaostro@gmail.com}{elianaostro@gmail.com} \,|\, +54 9 11 6666-2752 \,|\,
+\href{https://github.com/elianaostro}{github.com/elianaostro} \,|\, \href{https://linkedin.com/in/eliana-ostro}{linkedin.com/in/eliana-ostro}
+
+\smallskip
+
+% --- Professional Summary ---
+\section*{Professional Summary}
+
+AI Engineering student (Top 9\% at UdeSA) with hands-on experience building ML systems, LLM-based workflows, and autonomous agents in production environments.
+
+% --- Professional Experience ---
+\section*{Professional Experience}
+
+\textbf{AI Engineer \,|\, Bouldertech.ia} \hfill Oct 2025 -- Present
+\begin{itemize}
+    \item Deploy and benchmark open-source LLMs and vision models; build RAG pipelines and autonomous web navigation agents.
+\end{itemize}
+
+\textbf{Data Analyst \& AI Developer \,|\, Alephee} \hfill May 2025 -- Present
+\begin{itemize}
+    \item Build LLM-powered orchestration agents in n8n integrated with Microsoft Teams, SharePoint, and Azure; prototype cloud solutions on AWS.
+\end{itemize}
+
+\textbf{ML Intern \,|\, DHC} \hfill 2024
+\begin{itemize}
+    \item Built predictive ML models to optimize operations in hospitals and medical centers.
+\end{itemize}
+
+\textbf{Teaching Assistant \,|\, Universidad de San Andrés} \hfill 2024 -- 2025
+\begin{itemize}
+    \item Physics I and Calculus III (Análisis Matemático III).
+\end{itemize}
+
+% --- Engineering Projects ---
+\section*{Engineering Projects}
+
+\textbf{Trademark Opposition Management Platform}
+\begin{itemize}
+    \item Full-stack platform automating INPI bulletin processing and trademark conflict detection using fuzzy matching, semantic embeddings, CNN visual similarity, and LLM reasoning.
+\end{itemize}
+
+\textbf{Research Assistant Program Participant -- UdeSA Autonomous Vehicle Project \,|\, UdeSA}\\
+Argentina's first research autonomous street vehicle (\href{https://udesa.edu.ar/auto-autonomo}{udesa.edu.ar/auto-autonomo}), working with the PAMPA dataset (\href{https://ri.conicet.gov.ar/handle/11336/242774}{CONICET}).
+
+\smallskip
+\textbf{Lane Detection via Teacher--Student Distillation under Domain Shift}
+\begin{itemize}
+    \item Designed a teacher--student domain adaptation scheme using pseudo-labeling on the PAMPA urban dataset, without retraining the teacher's weights.
+    \item Implemented two student variants based on CLRerNet: image-only and a temporal extension with ConvLSTM for inter-frame coherence.
+    \item Quantitatively characterized the specialization vs.\ forgetting trade-off: urban F1 34.9\% vs.\ highway accuracy drop 96.4\%$\to$18.2\%. Submitted to JAR 2026.
+\end{itemize}
+
+\textbf{Autonomous Navigation (PPO)}
+\begin{itemize}
+    \item Trained a Proximal Policy Optimization policy for self-driving agents in Unity; designed reward shaping and curriculum to stabilize convergence.
+\end{itemize}
+
+% --- Research ---
+\section*{Research}
+
+\textbf{Anti-inflammatory Effect of Nanoparticles on Blood Vessel Endothelium}
+\begin{itemize}
+    \item Research internship at the Experimental Thrombosis Laboratory, CONICET -- Academia Nacional de Medicina.
+\end{itemize}
+
+% --- Education ---
+\section*{Education}
+
+\textbf{B.S.\ in AI Engineering \,|\, Universidad de San Andrés} \hfill Expected 2027\\
+Top 9\% of the program \,|\, Top 10\% university-wide \,|\, GPA: 8.74 / 10.0
+
+\smallskip
+\textbf{High School Diploma in Natural Sciences (Chemistry \& Biotech) \,|\, ORT Argentina} -- Graduated with Honors
+
+% --- Technical Skills ---
+\section*{Technical Skills}
+
+\begin{itemize}
+    \item \textbf{ML \& AI:} PyTorch, Computer Vision, Reinforcement Learning (PPO), LLM Systems, RAG, n8n.
+    \item \textbf{Infrastructure \& Cloud:} Docker, ROS2, AWS (Bedrock, SageMaker, S3, EC2), Azure, Google Cloud.
+    \item \textbf{Languages:} Spanish (Native), English (C2), Hebrew (Basic).
+\end{itemize}
+
+\end{document}
