@@ -2,7 +2,7 @@
 
 **AI Engineering Student (4th year) | Top 10% of cohort (GPA 8.74)**
 
-AI Engineer at **Bouldertech.ia** | Junior Data Analyst at **Alephee**
+AI Engineer at **Bouldertech.ia** | Data Analyst at **Alephee**
 
 Reinforcement Learning for Physical Models & Robotics | AI Safety
 
