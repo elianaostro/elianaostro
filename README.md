@@ -13,7 +13,7 @@ Reinforcement Learning for Physical Models & Robotics | AI Safety
 **AI Engineer** &mdash; Bouldertech.ia
 Developing and implementing AI solutions.
 
-**Junior Data Analyst** &mdash; Alephee
+**Data Analyst** &mdash; Alephee
 Data processing and automation.
 
 **Teaching Assistant** &mdash; Physics 1 and Mathematical Analysis 3
