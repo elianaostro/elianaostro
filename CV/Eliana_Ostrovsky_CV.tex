@@ -23,9 +23,9 @@
 \pagestyle{empty}
 
 \titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\titlerule]
-\titlespacing*{\section}{0pt}{8pt}{4pt}
+\titlespacing*{\section}{0pt}{6pt}{3pt}
 
-\setlist[itemize]{leftmargin=1.5em, itemsep=1pt, parsep=0pt, topsep=3pt}
+\setlist[itemize]{leftmargin=1.5em, itemsep=0.5pt, parsep=0pt, topsep=2pt}
 
 \begin{document}
 
@@ -80,20 +80,23 @@ AI Engineering student with hands-on experience developing and deploying machine
 
 \textbf{Trademark Opposition Management Platform}
 \begin{itemize}
-    \item Building a full-stack web platform for Argentine lawyers that automates weekly INPI (Instituto Nacional de Propiedad Intelectual) bulletin processing and trademark conflict detection.
+    \item Building a full-stack web platform for Argentine lawyers that automates weekly INPI (Instituto Nacional de la Propiedad Industrial) bulletin processing and trademark conflict detection.
     \item Compare new trademark filings against client portfolios using multiple complementary algorithms: fuzzy string matching, phonetic similarity, semantic embeddings, CNN-based visual similarity, and LLM reasoning.
     \item Develop a web interface for lawyers to review flagged conflicts, dispatch notification emails to clients, and track client responses throughout the opposition workflow.
 \end{itemize}
 
 \needspace{1\baselineskip}
-\textbf{Research Assistant Program Participant -- UdeSA Autonomous Vehicle Project \,|\, UdeSA}\\
-Argentina's first research autonomous street vehicle (\href{https://udesa.edu.ar/auto-autonomo}{udesa.edu.ar/auto-autonomo}). Worked with the PAMPA dataset, the first autonomous driving dataset in the region (\href{https://ri.conicet.gov.ar/handle/11336/242774}{CONICET}).
-\smallskip
+\textbf{LLM Interpretability and Behavior in Multi-Agent Social Simulation}
+\begin{itemize}
+    \item Team research project studying how open-source LLMs (Llama-3.3-70B, Gemma-3-27B, Qwen3-8B) reason and influence each other inside multi-agent social simulations; built the per-agent model routing and per-call telemetry that made the comparison possible.
+    \item Characterized architecture-specific failure modes in open-ended debate --- epistemic echo chambers, factual impermeability where pre-training priors override contrary evidence, and evasive neutral consensus --- traced to pre-training coverage and alignment.
+    \item Quantified generative behavior independently of task accuracy (Self-BLEU, distinct-$n$, Vendi Score, entropy) and intra-persona ideological drift via parametric interviews at simulation checkpoints; found heterogeneous populations collapse into semantic deadlock without exogenous information.
+\end{itemize}
 
 \needspace{1\baselineskip}
 \textbf{Lane Detection via Teacher--Student Distillation under Domain Shift}
 \begin{itemize}
-    \item Submitted to the Jornadas Argentinas de Robótica (JAR 2026).
+    \item Accepted at the Jornadas Argentinas de Robótica (JAR 2026).
     \item Designed a teacher--student domain adaptation scheme for lane detection on the PAMPA urban dataset using pseudo-labeling, without retraining the teacher's weights.
     \item Implemented two student variants based on CLRerNet: image-only and a temporal extension with ConvLSTM for inter-frame coherence.
     \item Quantitatively characterized the specialization vs.\ forgetting trade-off: urban F1 of 34.9\% vs.\ highway accuracy drop from 96.4\% to 18.2\%.
@@ -119,6 +122,10 @@ Argentina's first research autonomous street vehicle (\href{https://udesa.edu.ar
 % --- Research ---
 \section*{Research}
 
+\textbf{Research Assistant Program Participant -- UdeSA Autonomous Vehicle Project \,|\, UdeSA}\\
+Argentina's first research autonomous street vehicle (\href{https://udesa.edu.ar/auto-autonomo}{udesa.edu.ar/auto-autonomo}). Worked with the PAMPA dataset, the first autonomous driving dataset in the region (\href{https://ri.conicet.gov.ar/handle/11336/242774}{CONICET}).
+\smallskip
+
 \textbf{Anti-inflammatory Effect of Nanoparticles on Blood Vessel Endothelium}
 \begin{itemize}
     \item Research internship at the Experimental Thrombosis Laboratory, Institute of Experimental Medicine (CONICET -- Academia Nacional de Medicina, Buenos Aires).
@@ -130,10 +137,10 @@ Argentina's first research autonomous street vehicle (\href{https://udesa.edu.ar
 
 \textbf{B.S.\ in AI Engineering \,|\, Universidad de San Andrés}
 \begin{itemize}
-    \item Expected Graduation: 2027.
+    \item Expected Graduation: July 2027.
     \item Top 9\% of the AI Engineering program.
     \item Top 10\% university-wide.
-    \item GPA: 8.74 / 10.0.
+    \item GPA: 8.72 / 10.0.
 \end{itemize}
 
 \textbf{High School Diploma in Natural Sciences (Chemistry \& Biotech) \,|\, ORT Argentina}
@@ -146,8 +153,8 @@ Argentina's first research autonomous street vehicle (\href{https://udesa.edu.ar
 
 \begin{itemize}
     \item \textbf{Programming:} Python, SQL, C++, Java, C, JavaScript, Haskell.
-    \item \textbf{Machine Learning:} PyTorch, Computer Vision, Reinforcement Learning (PPO), LLM Systems, RAG.
-    \item \textbf{Infrastructure:} Docker, Git, n8n, ROS2, Gazebo, Unity, Ollama.
+    \item \textbf{Machine Learning:} PyTorch, Computer Vision, Reinforcement Learning (PPO), LLM Systems, RAG, LLM Evaluation.
+    \item \textbf{Infrastructure:} Docker, Git, n8n, ROS2, Gazebo, Unity, Ollama, Neo4j.
     \item \textbf{Cloud:} AWS (Bedrock, SageMaker, S3, EC2), Microsoft 365 (SharePoint, Teams, Azure), Google Cloud.
     \item \textbf{Languages:} Spanish (Native), English (C2), Hebrew (Basic).
 \end{itemize}
