@@ -1,0 +1,168 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[spanish,es-noshorthands]{babel}
+\usepackage[margin=1.5cm]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{needspace}
+
+\setlength{\parindent}{0pt}
+
+\definecolor{accent}{HTML}{2E3A59}
+
+% Marcador para datos que Eliana debe completar antes de enviar.
+\newcommand{\completar}[1]{\textcolor{red}{\textbf{[#1]}}}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=accent,
+    urlcolor=accent,
+}
+
+\pagestyle{empty}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{5pt}{2pt}
+
+\setlist[itemize]{leftmargin=1.5em, itemsep=0.5pt, parsep=0pt, topsep=2pt, label=\textbullet}
+
+\begin{document}
+
+% --- Encabezado ---
+{\LARGE\bfseries Eliana Ostrovsky}\par\smallskip
+{\large Estudiante avanzada de Ingeniería en Inteligencia Artificial}\par\smallskip
+Interpretabilidad de LLMs \textbullet{} Evaluación de Modelos \textbullet{} Visión por Computadora \textbullet{} Aprendizaje por Refuerzo\par
+\smallskip
+Buenos Aires, Argentina\par
+\href{mailto:elianaostro@gmail.com}{elianaostro@gmail.com} \,|\, +54 9 11 6666-2752\par
+\href{https://github.com/elianaostro}{github.com/elianaostro} \,|\, \href{https://linkedin.com/in/eliana-ostro}{linkedin.com/in/eliana-ostro}
+
+\medskip
+
+% --- Perfil ---
+\section*{Perfil}
+
+Estudiante avanzada de Ingeniería en Inteligencia Artificial (Top 9\% de la carrera, Universidad de San Andrés) con investigación publicada en visión por computadora y experiencia directa en interpretabilidad y evaluación del comportamiento de LLMs. Mi trabajo se ha centrado en caracterizar modos de falla de modelos de lenguaje --- cámaras de eco epistémicas, impermeabilidad factual y deriva ideológica en interacción multi-agente --- y en medir la degradación de sistemas de percepción bajo cambio de dominio. Me interesa contribuir a AI Safety desde las agendas de \textbf{interpretabilidad} y \textbf{evaluations}, con foco en detectar capacidades y comportamientos peligrosos antes del despliegue. Complemento la investigación con experiencia aplicada en despliegue y evaluación de LLMs open-source e infraestructura de ML.
+
+% --- Educación ---
+\section*{Educación}
+
+\textbf{Ingeniería en Inteligencia Artificial \,|\, Universidad de San Andrés} \hfill 2023 -- jul.\ 2027 (est.)
+\begin{itemize}
+    \item Top 9\% de la carrera de Ingeniería en IA; Top 10\% de la universidad.
+    \item Promedio: 8,72 / 10,0.
+\end{itemize}
+
+\textbf{Bachiller en Ciencias Naturales (Química y Biotecnología) \,|\, ORT Argentina}
+\begin{itemize}
+    \item Egresada con honores.
+\end{itemize}
+
+% --- Idiomas ---
+\section*{Idiomas}
+
+Español (nativo) \textbullet{} Inglés (C2 --- lectura fluida de literatura académica y participación en seminarios internacionales) \textbullet{} Hebreo (básico).
+
+% --- Publicaciones ---
+\section*{Publicaciones}
+
+\emph{Detección de Carriles mediante Destilación Teacher--Student bajo Cambio de Dominio}. Aceptado en las \textbf{Jornadas Argentinas de Robótica (JAR 2026)}.
+
+% --- Investigación ---
+\section*{Investigación}
+
+\textbf{Interpretabilidad, Evaluación de Comportamiento y Modos de Falla de LLMs en Simulación Social Multi-Agente}
+\begin{itemize}
+    \item Investigación en equipo sobre cómo LLMs open-source (Llama-3.3-70B, Gemma-3-27B, Qwen3-8B) razonan y se influyen mutuamente en simulaciones sociales multi-agente. Construí el enrutamiento de modelos por agente y la telemetría por llamada que hicieron posible la comparación entre arquitecturas.
+    \item Caractericé modos de falla propios de cada arquitectura en debates abiertos --- cámaras de eco epistémicas, impermeabilidad factual donde el pre-entrenamiento anula la evidencia contraria y consenso neutro evasivo ---, atribuidos a la cobertura del pre-entrenamiento y al alineamiento.
+    \item Cuantifiqué el comportamiento generativo con independencia de la precisión (Self-BLEU, distinct-$n$, Vendi Score, entropía) y la deriva ideológica intra-persona mediante entrevistas paramétricas en checkpoints; hallamos que las poblaciones heterogéneas colapsan en un bloqueo semántico en ausencia de información exógena.
+\end{itemize}
+
+\needspace{2\baselineskip}
+\textbf{Detección de Carriles mediante Destilación Teacher--Student bajo Cambio de Dominio}
+\begin{itemize}
+    \item Esquema de adaptación de dominio teacher--student con pseudo-etiquetado sobre el dataset urbano PAMPA, sin reentrenar los pesos del teacher.
+    \item Desarrollé dos variantes de student basadas en CLRerNet: una basada solo en imagen y una extensión temporal con ConvLSTM para coherencia entre cuadros.
+    \item Caractericé el compromiso entre especialización en el dominio urbano y olvido catastrófico del dominio original.
+\end{itemize}
+
+\needspace{2\baselineskip}
+\textbf{Programa de Asistentes de Investigación --- Proyecto Auto Autónomo \,|\, Universidad de San Andrés}
+\begin{itemize}
+    \item Primer vehículo autónomo de calle de investigación de Argentina (\href{https://udesa.edu.ar/auto-autonomo}{udesa.edu.ar/auto-autonomo}).
+    \item Trabajo con el dataset PAMPA, el primer dataset de conducción autónoma de la región (\href{https://ri.conicet.gov.ar/handle/11336/242774}{CONICET}).
+\end{itemize}
+
+\needspace{2\baselineskip}
+\textbf{Efecto Antiinflamatorio de Nanopartículas sobre el Endotelio Vascular}
+\begin{itemize}
+    \item Pasantía de investigación en el Laboratorio de Trombosis Experimental, Instituto de Medicina Experimental (CONICET --- Academia Nacional de Medicina, Buenos Aires).
+    \item Directoras: Dra.\ Nancy Charó y Dra.\ Mirta Schattner.
+\end{itemize}
+
+% --- Proyectos ---
+\section*{Proyectos}
+
+\textbf{Plataforma de Gestión de Oposiciones de Marcas}
+\begin{itemize}
+    \item Plataforma web full-stack que automatiza el procesamiento semanal del boletín del INPI (Instituto Nacional de la Propiedad Industrial) y la detección de conflictos de marcas para estudios jurídicos argentinos.
+    \item Comparé nuevas solicitudes contra las carteras de clientes combinando algoritmos complementarios: fuzzy string matching, similitud fonética, embeddings semánticos, similitud visual con CNNs y razonamiento con LLMs.
+    \item Desarrollé la interfaz para que los abogados revisen los conflictos detectados, notifiquen a sus clientes y sigan sus respuestas a lo largo del flujo de oposición.
+\end{itemize}
+
+\needspace{2\baselineskip}
+\textbf{Navegación Autónoma (PPO)}
+\begin{itemize}
+    \item Modelo de Proximal Policy Optimization para agentes de conducción autónoma en un entorno de simulación Unity.
+\end{itemize}
+
+\needspace{2\baselineskip}
+\textbf{Predicción de Precios de Automóviles}
+\begin{itemize}
+    \item Limpieza, extracción de características y transformación de datasets automotrices en crudo; entrenamiento y ajuste fino de un modelo XGBoost con optimización sistemática de hiperparámetros.
+\end{itemize}
+
+% --- Experiencia Profesional ---
+\section*{Experiencia Profesional}
+
+\textbf{AI Engineer \,|\, Bouldertech} \hfill Oct 2025 -- Presente \emph{(part-time)}
+\begin{itemize}
+    \item Despliego y evalúo LLMs open-source (familia Qwen) y modelos de visión con Ollama en servidores dedicados.
+    \item Construyo pipelines de RAG y agentes autónomos de navegación web con OpenCrawl para la extracción automatizada de datos.
+    \item Empaqueto sistemas de IA en contenedores Docker para garantizar entornos reproducibles.
+\end{itemize}
+
+\textbf{Data Analyst \& AI Developer \,|\, Alephee} \hfill May 2025 -- Presente \emph{(part-time)}
+\begin{itemize}
+    \item Lidero el desarrollo de herramientas internas de IA y flujos de automatización.
+    \item Construyo agentes de orquestación basados en LLMs en n8n, integrados con Microsoft Teams, SharePoint y Azure.
+    \item Implemento flujos que generan salidas estructuradas en JSON con capas de validación y seguridad.
+    \item Realizo consultas sobre grandes volúmenes de datos con Microsoft SQL Server y desarrollo prototipos en AWS (Bedrock, SageMaker, S3, EC2).
+\end{itemize}
+
+\textbf{Ayudante de Cátedra \,|\, Universidad de San Andrés} \hfill 2024 -- 2025
+\begin{itemize}
+    \item Física I y Análisis Matemático III: preparé y dicté clases, corregí exámenes e informes de laboratorio.
+\end{itemize}
+
+\textbf{ML Intern \,|\, DHC} \hfill 2024
+\begin{itemize}
+    \item Construí modelos predictivos con Machine Learning y Feature Engineering para optimizar operaciones en hospitales y centros médicos.
+\end{itemize}
+
+% --- Habilidades Técnicas ---
+\section*{Habilidades Técnicas}
+
+\begin{itemize}
+    \item \textbf{Programación:} Python, SQL, C++, Java, C, JavaScript, Haskell.
+    \item \textbf{Machine Learning:} PyTorch, Sistemas LLM, Evaluación de LLMs, RAG, Visión por Computadora, Aprendizaje por Refuerzo (PPO).
+    \item \textbf{Infraestructura:} Docker, Git, Ollama, n8n, ROS2, Gazebo, Unity, Neo4j.
+    \item \textbf{Cloud:} AWS (Bedrock, SageMaker, S3, EC2), Microsoft 365 (SharePoint, Teams, Azure), Google Cloud.
+\end{itemize}
+
+\end{document}
